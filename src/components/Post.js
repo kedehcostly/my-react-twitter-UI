@@ -8,13 +8,14 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PublishIcon from '@material-ui/icons/Publish';
 
 
+
 export default function Post({
     displayName,
     username,
     verified,
     text,
     image,
-    avatat
+    avatar
 }) {
     return (
         <div className="post">
@@ -26,20 +27,20 @@ export default function Post({
             <div className="post__body">
                 <div className="post__header">
 
-                
+
                     <div className="post__headerText">
                         <h3>Kedeh Costly {""}
                             <span className="post__headerSpecial">
                             <VerifiedUserIcon className="post__badge" /> @theboycostly
                             </span>
                         </h3>
-                    
+
                     </div>
                     <div className="post__headerDescription">
                         <p>I challenge you to build a twitter clone with react</p>
                     </div>
-                </div>  
-                <img src="https://media3.giphy.com/media/56ATdpi3clADjomZ39/giphy.gif"  alt="" />
+                </div>
+                <img src="https://media.giphy.com/media/HK6ZhPYafitqGsnMBX/giphy.gif"  alt="" />
 
                 <div className="Post__footer">
             <ChatBubbleOutlineIcon fontSize="small" />
@@ -48,7 +49,7 @@ export default function Post({
             <PublishIcon fontSize="small" />
             </div>
             </div>
-            
+
         </div>
     );
 }
